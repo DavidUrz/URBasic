@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rtde_config>
+	<recipe key="state">
+		
+		<field name="output_bit_registers0_to_31" type="UINT32"/>
+
+		<field name="output_int_register_0" type="INT32"/>
+		<field name="output_int_register_1" type="INT32"/>
+	</recipe>
+
+	<recipe key="setp">
+		<field name="input_bit_registers0_to_31" type="UINT32"/>
+		<field name="input_int_register_0" type="INT32"/>
+	</recipe>
+
+	<recipe key="watchdog">
+		<field name="input_int_register_2" type="INT32"/>
+	</recipe>
+</rtde_config>
